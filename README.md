@@ -65,7 +65,7 @@ m=2024+Fall+De+Anza&crns=27505,27506"
 **Response:**
 - **Success**:
  ```json
- {"result":["* (27505) Calculus III - Class registered successfully"],"status":"Success","time_elapsed": 11.25 seconds
+ {"result":["* (27505) Calculus III - Class registered successfully"],"status":"Success","time_elapsed": "11.25 seconds"
  ```
 - **Failure**:
  ```json
