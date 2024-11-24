@@ -36,4 +36,4 @@ def send_email(to_email, subject, message):
     except Exception as e:
         print(f"Failed to send email: {str(e)}")
 
-send_email("lopezalejandro5b@gmail.com", "Test", "This is a test")
+send_email("bizarr.development@gmail.com", "Test", "This is a test")
