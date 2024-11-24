@@ -1,6 +1,6 @@
 # Registration Tool API for De Anza College
 
-Overview
+### Overview
 The Automated Class Registration API is a Python-based Flask application designed to automate
 the process of class registration on the MyPortal platform. This script uses Selenium WebDriver to
 simulate user interactions, making it easier for students to register for classes by simply providing
