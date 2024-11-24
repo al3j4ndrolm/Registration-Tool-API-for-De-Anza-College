@@ -13,7 +13,7 @@ their credentials, term, and CRNs.
 - Inputs and registers CRNs for specified classes.
 - Sends notifications, such as DUO verification codes, via email for added convenience.
 - Designed to handle multiple simultaneous requests with Gunicorn.
-Installation
+### Installation
 ### Prerequisites
 - Python 3.9 or higher
 - Google Chrome installed on the system
