@@ -22,14 +22,14 @@ Installation
 ### Install Dependencies
 1. Clone the repository:
  ```
- git clone https://github.com/<your-username>/<your-repo>.git
- cd <your-repo>
+ git clone https://github.com/al3j4ndrolm/Registration-Tool-API-for-De-Anza-College.git
+ cd Registration-Tool-API-for-De-Anza-College
  ```
 2. Install required Python libraries:
  ```
  pip install -r requirements.txt
  ```
-3. Export environment variables for email notifications:
+3. Export environment variables for email notifications (Only if you work on campus):
  ```
  export SENDER_EMAIL="your-email@gmail.com"
  export SENDER_PASSWORD="your-app-password"
@@ -58,13 +58,13 @@ API Endpoints
 **Example:**
 ```bash
 curl
-"http://<ec2-public-ip>:5000/register_classes?username=20555154&password=YourPassword&ter
+"http://<ec2-public-ip>:5000/register_classes?username=CWID&password=YourPassword&ter
 m=2024+Fall+De+Anza&crns=27505,27506"
 ```
 **Response:**
 - **Success**:
  ```json
- { "status": "Success", "result": "Classes registered successfully" }
+ {"result":["* (27505) Calculus III - Class registered successfully"],"status":"Success","time_elapsed": 11.25 seconds
  ```
 - **Failure**:
  ```json
