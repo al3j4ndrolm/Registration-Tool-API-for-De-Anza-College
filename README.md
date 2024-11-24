@@ -35,14 +35,14 @@ Installation
  export SENDER_EMAIL="your-email@gmail.com"
  export SENDER_PASSWORD="your-app-password"
  ```
-Usage
-### Running Locally
+### Usage
+### `Running Locally`
 Start the Flask server:
 ```bash
 python3 remote_login.py
 ```
 Use a tool like curl or Postman to make GET or POST requests to the API.
-### Deployment on AWS EC2
+### `Deployment on AWS EC2`
 Start the script using `nohup` or `gunicorn` for production:
 ```bash
 gunicorn -w 3 --threads 2 -b 0.0.0.0:5000 remote_login:app
